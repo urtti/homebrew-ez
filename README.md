@@ -48,7 +48,7 @@ ez remove greet
 
 To update `ez` to the latest version:
 ```sh
-brew upgrade ez
+brew update && brew upgrade ez
 ```
 
 ## More Information
