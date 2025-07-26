@@ -6,7 +6,10 @@ This repository provides a Homebrew tap for installing the `ez` CLI tool on macO
 
 `ez` streamlines CLI command execution through aliases. It allows you to save frequently used or complex shell commands as short, memorable aliases, making your terminal workflow faster and more efficient.
 
-- Aliases are stored in a `.ez_cli.json` file in each directory, allowing for context-specific command sets.
+Benefits of using it include:
+- Context-specific command sets that are easy to share to the team: Aliases are stored in a `.ez_cli.json` file in each directory.
+- Timed runs: After each command execution, ez prints out the duration. This gives you information about your workflow efficiency without any extra effort.
+- Parallel runs: By default commands are sequential, but parallel commands are supported as well. When run in parallel, a subprocess is created for each command. 
 
 ## Installation
 
