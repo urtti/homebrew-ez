@@ -1,12 +1,13 @@
 class Ez < Formula
   desc "Streamlines CLI command execution through aliases"
   homepage "https://github.com/urtti/homebrew-ez"
-  url "https://github.com/urtti/homebrew-ez/releases/download/v0.7.6/ez-v0.7.6-macos.tar.gz"
-  sha256 "3133e1068bbc0558af8d4875b4f59519a32463642391be24cecca544925e7b45"
+  url "https://github.com/urtti/homebrew-ez/releases/download/v1.0.4/ez-v1.0.4-macos.tar.gz"
+  sha256 "406d0a1701ee069459e1cc932e61bbb1cd09e9bd30dd5bc91dc1053cb4cb94d6"
   license "MIT"
 
   def install
     bin.install "ez"
+    zsh_completion.install "completions/_ez" => "_ez"
   end
 
   test do
