@@ -1,8 +1,8 @@
 class Ez < Formula
   desc "Streamlines CLI command execution through aliases"
   homepage "https://github.com/urtti/homebrew-ez"
-  url "https://github.com/urtti/homebrew-ez/releases/download/v1.0.4/ez-v1.0.4-macos.tar.gz"
-  sha256 "406d0a1701ee069459e1cc932e61bbb1cd09e9bd30dd5bc91dc1053cb4cb94d6"
+  url "https://github.com/urtti/homebrew-ez/releases/download/1.2.0/ez-1.2.0-macos.tar.gz"
+  sha256 "aab19e15b752c6232a2d3046e9d26bf8a3e7062f1848c67665e3eeacdab5f072"
   license "MIT"
 
   def install
