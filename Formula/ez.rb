@@ -5,12 +5,15 @@ class Ez < Formula
   sha256 "4f0830778cbb9d02a37fdbd8d58f897bb7081a1b5d61f42447005c1f45c63a6b"
   license "MIT"
 
+  depends_on arch: :arm64
+  depends_on macos: :sequoia
+
   def install
     bin.install "ez"
     zsh_completion.install "completions/_ez" => "_ez"
   end
 
   test do
-    system "#{bin}/ez", "--version"
+    system bin/"ez", "--version"
   end
-end 
+end
